@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block WAX_BLOCK = registerBlock("wax_block",
-            AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.HONEY));
+            AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.HONEY));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LostForgotten.MOD_ID, name));
