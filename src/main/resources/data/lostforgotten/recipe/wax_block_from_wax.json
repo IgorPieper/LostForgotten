@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "lostforgotten:crystallized_honey"
+    ]
+  },
+  "result": {
+    "id": "lostforgotten:wax_block",
+    "count": 1
+  }
+}

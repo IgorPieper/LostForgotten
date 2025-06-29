@@ -1,4 +1,8 @@
 {
   "item.lostforgotten.ruby": "Ruby",
-  "item.lostforgotten.crystallized_honey": "Wax"
+  "item.lostforgotten.crystallized_honey": "Wax",
+
+  "item.lostforgotten.wax_block": "Wax Block",
+
+  "itemgroup.lostforgotten.deleted": "Deleted"
 }

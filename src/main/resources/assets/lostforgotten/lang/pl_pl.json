@@ -1,4 +1,8 @@
 {
   "item.lostforgotten.ruby": "Rubin",
-  "item.lostforgotten.crystallized_honey": "Wosk"
+  "item.lostforgotten.crystallized_honey": "Wosk",
+
+  "item.lostforgotten.wax_block": "Blok Wosku",
+
+  "itemgroup.lostforgotten.deleted": "Usunięte"
 }
