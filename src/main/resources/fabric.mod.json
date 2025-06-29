@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lostforgotten",
+	"version": "${version}",
+	"name": "LostForgotten",
+	"description": "Hello, the goal of this modification is to bring to light things that have been forgotten, overlooked, and permanently cast into the depths of oblivion.",
+	"authors": [
+		"Igor Pieper"
+	],
+	"contact": {
+		"homepage": "https://linktr.ee/IgorPieper",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "You can do whatever you want with it, as long as you don’t make money from it and you credit me as a co-creator.",
+	"icon": "assets/lostforgotten/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lostforgotten.LostForgotten"
+		],
+		"fabric-datagen": [
+			"net.lostforgotten.LostForgottenDataGenerator"
+		],
+		"client": [
+			"net.lostforgotten.LostForgottenClient"
+		]
+	},
+	"mixins": [
+		"lostforgotten.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
