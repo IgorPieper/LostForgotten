@@ -24,6 +24,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAX_BLOCK);
                     }).build());
 
+    public static final ItemGroup RETRO_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(LostForgotten.MOD_ID, "retro"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MOSSY_COBBLESTONE_MK1))
+                    .displayName(Text.translatable("itemgroup.lostforgotten.retro"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_MK1);
+                    }).build());
+
+
     public static void registerItemGroups() {
         LostForgotten.LOGGER.info("Registering Item Groups for " + LostForgotten.MOD_ID);
     }

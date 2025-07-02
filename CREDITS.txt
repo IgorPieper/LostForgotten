@@ -1,0 +1,7 @@
+1. Textures:
+- Mossy Cobblestone - old game texture [Pre 1.14]
+- Ruby - texture comes from game Minecraft Earth
+- Ruby Ore, Block, Deepslate Ore - Made by Igor Pieper
+- Wax [Crystallized Honey], Wax Block - textures from game files [snapshot 19w34a]
+
+2. Special thanks to the Youtube channel: Kaupenjoe. From which I learn how to make modifications.

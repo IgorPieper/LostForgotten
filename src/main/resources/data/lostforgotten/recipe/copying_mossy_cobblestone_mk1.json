@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "lostforgotten:mossy_cobblestone_mk1",
+    "minecraft:mossy_cobblestone"
+  ],
+  "result": {
+    "id": "lostforgotten:mossy_cobblestone_mk1",
+    "count": 2
+  }
+}

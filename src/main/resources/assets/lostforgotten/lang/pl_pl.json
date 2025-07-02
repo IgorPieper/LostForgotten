@@ -6,6 +6,10 @@
   "item.lostforgotten.ruby_block": "Blok Rubinu",
   "item.lostforgotten.ruby_ore": "Ruda Rubinu",
   "item.lostforgotten.deepslate_ruby_ore": "Skałkowa Ruda Rubinu",
+  "item.lostforgotten.mossy_cobblestone_mk1": "Zamszony Bruk",
 
-  "itemgroup.lostforgotten.deleted": "Usunięte"
+  "itemgroup.lostforgotten.deleted": "Usunięte",
+  "itemgroup.lostforgotten.retro": "Retro",
+
+  "tooltip.tutorialmod.universal_retro.tooltip": "Połącz w polu do wytwarzania z wersją oryginalną, aby powielić wersję retro"
 }

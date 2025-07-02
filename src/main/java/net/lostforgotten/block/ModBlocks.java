@@ -27,6 +27,9 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
 
+    public static final Block MOSSY_COBBLESTONE_MK1 = registerBlock("mossy_cobblestone_mk1",
+            AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK));
+
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LostForgotten.MOD_ID, name));
         Block block = new Block(blockSettings.registryKey(key));
