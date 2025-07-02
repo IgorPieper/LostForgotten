@@ -16,7 +16,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))
                     .displayName(Text.translatable("itemgroup.lostforgotten.deleted"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModItems.CRYSTALLIZED_HONEY);
                         entries.add(ModBlocks.WAX_BLOCK);
                     }).build());

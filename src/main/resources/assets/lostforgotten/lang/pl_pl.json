@@ -3,6 +3,9 @@
   "item.lostforgotten.crystallized_honey": "Wosk",
 
   "item.lostforgotten.wax_block": "Blok Wosku",
+  "item.lostforgotten.ruby_block": "Blok Rubinu",
+  "item.lostforgotten.ruby_ore": "Ruda Rubinu",
+  "item.lostforgotten.deepslate_ruby_ore": "Skałkowa Ruda Rubinu",
 
   "itemgroup.lostforgotten.deleted": "Usunięte"
 }

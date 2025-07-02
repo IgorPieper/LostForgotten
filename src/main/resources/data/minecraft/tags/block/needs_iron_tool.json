@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "lostforgotten:wax_block",
     "lostforgotten:ruby_ore",
     "lostforgotten:deepslate_ruby_ore",
     "lostforgotten:ruby_block"

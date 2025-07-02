@@ -18,6 +18,15 @@ public class ModBlocks {
     public static final Block WAX_BLOCK = registerBlock("wax_block",
             AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.HONEY));
 
+    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
+            AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK));
+
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE));
+
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
+
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LostForgotten.MOD_ID, name));
         Block block = new Block(blockSettings.registryKey(key));

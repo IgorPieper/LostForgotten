@@ -3,6 +3,9 @@
   "item.lostforgotten.crystallized_honey": "Wax",
 
   "item.lostforgotten.wax_block": "Wax Block",
+  "item.lostforgotten.ruby_block": "Ruby Block",
+  "item.lostforgotten.ruby_ore": "Ruby Ore",
+  "item.lostforgotten.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "itemgroup.lostforgotten.deleted": "Deleted"
 }
