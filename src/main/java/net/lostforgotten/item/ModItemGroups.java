@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModItems.CRYSTALLIZED_HONEY);
                         entries.add(ModBlocks.WAX_BLOCK);
+                        entries.add(ModItems.DOG_MUSIC_DISC);
                     }).build());
 
     public static final ItemGroup RETRO_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.lostforgotten.block.ModBlocks;
 import net.lostforgotten.item.ModItemGroups;
 import net.lostforgotten.item.ModItems;
+import net.lostforgotten.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 import org.slf4j.Logger;
@@ -22,6 +23,8 @@ public class LostForgotten implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModSounds.registerSounds();
 
 		ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, tooltipType, list) -> {
 			if (itemStack.isOf(ModBlocks.MOSSY_COBBLESTONE_MK1.asItem())){

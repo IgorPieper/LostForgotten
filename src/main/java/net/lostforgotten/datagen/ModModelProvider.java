@@ -35,6 +35,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CRYSTALLIZED_HONEY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
-
+        itemModelGenerator.register(ModItems.DOG_MUSIC_DISC, Models.GENERATED);
     }
 }

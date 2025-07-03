@@ -1,0 +1,10 @@
+{
+  "dog": {
+    "sounds": [
+      {
+        "name": "lostforgotten:dog",
+        "stream": true
+      }
+    ]
+  }
+}
