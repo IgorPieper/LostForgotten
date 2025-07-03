@@ -1,7 +1,12 @@
 1. Textures:
-- Mossy Cobblestone - old game texture [Pre 1.14]
+- Mossy Cobblestone - old game texture [Pre Beta 1.8]
 - Ruby - texture comes from game Minecraft Earth
 - Ruby Ore, Block, Deepslate Ore - Made by Igor Pieper
 - Wax [Crystallized Honey], Wax Block - textures from game files [snapshot 19w34a]
 
 2. Special thanks to the Youtube channel: Kaupenjoe. From which I learn how to make modifications.
+
+3. Music and Sounds
+- Dog Music Disc - music from Minecraft Legacy Edition, where it's play at the end of cat music disc.
+    - Music by C418
+    - Texture by Igor Pieper
