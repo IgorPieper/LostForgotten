@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "lostforgotten:block/mossy_cobblestone_mk1"
-  }
-}
